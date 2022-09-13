@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Hello World! - mmdiyul</title>
+</head>
+<body>
+  <div id="content" class="container">
+    <div class="navigation">
+      <span class="fw-900 text-lg text-primary">mmdiyul.</span>
+      <span class="fw-500 text-sm btn-outline" id="sayhi">Say Hi!</span>
+    </div>
+
+    <div class="content">
+      <img src="assets/img/pic-1.jpg" id="img" class="img">
+      <span class="text-sm fw-300 mt-2">source: <span class="fw-700">unsplash</span></span>
+      <span class="fa-solid fa-heart cursor-pointer text-primary love"></span>
+    </div>
+  </div>
+
+  <div id="modal">
+    <div class="dialog">
+      <span class="fw-900 text-primary block">Say Hi! <span class="fa-solid fa-heart text-primary text-sm"></span></span>
+      <span class="block mt-2">Let me know about your self</span>
+      <span class="block mt-2 fw-500">Your Name <span class="fw-300 text-sm text-primary">(keep blank for anonymous)</span></span>
+      <input type="text" class="i-form mt-2">
+      <span class="block mt-2 fw-500">Message</span>
+      <textarea class="i-form mt-2" style="resize: none;"></textarea>
+      <div class="action-btn mt-2">
+        <span class="btn-outline" id="cancel-dialog">Cancel</span>
+        <span class="btn-primary" id="send-dialog">Send</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
